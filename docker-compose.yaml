@@ -1,0 +1,7 @@
+services:
+  fastapi:
+    image: fastapi
+    ports:
+      - "8080:80"
+    volumes:
+      - ./app:/code/app
